@@ -9,7 +9,7 @@ from pyrogram import Client, filters, enums, __version__ as pyrogram_version
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup, InputMediaDocument
 
 main_buttons = [[
-        InlineKeyboardButton('♨️ ᴅᴇᴠᴇʟᴏᴘᴇʀ ♨️', url='https://t.me/KingMogger')
+        InlineKeyboardButton('♨️ ᴅᴇᴠᴇʟᴏᴘᴇʀ ♨️', url='https://t.me/MoggerKing')
         ],[
         InlineKeyboardButton('💠 ʜᴇʟᴘ', callback_data='help'),
         InlineKeyboardButton('♻️ ᴀʙᴏᴜᴛ ', callback_data='about')
