@@ -27,7 +27,8 @@ async def start(client, message):
     await client.send_message(
         chat_id=message.chat.id,
         reply_markup=InlineKeyboardMarkup(main_buttons),
-        text=Translation.START_TXT.format(message.from_user.first_name))
+        text=Translation.START_TXT.format(message.from_user.first_name),
+        disable_web_page_preview=True)
 
 #==================Restart Function==================#
 
